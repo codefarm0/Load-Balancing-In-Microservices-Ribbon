@@ -1,0 +1,6 @@
+server:
+  port: 9081
+
+spring:
+  application:
+    name: doctor-service-app

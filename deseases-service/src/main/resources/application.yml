@@ -1,0 +1,8 @@
+server:
+    port: 4081
+spring:
+  application:
+    name: disease-service
+  sleuth:
+    sampler:
+      rate: 100

@@ -1,0 +1,8 @@
+server:
+    port: 6081
+spring:
+  application:
+    name: patients-service
+  sleuth:
+    sampler:
+      rate: 100

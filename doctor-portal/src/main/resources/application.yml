@@ -1,0 +1,10 @@
+server:
+  port: 7081
+
+spring:
+  application:
+    name: doctor-portal
+
+doctor-service:
+  ribbon:
+    listOfServers: localhost:9081,localhost:9082,localhost:9083
